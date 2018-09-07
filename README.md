@@ -1,5 +1,5 @@
 # AnotaMOB
-Este aplicativo pode ser usado para realizar diariamente as anotações relacioandas ao estado do muco cervical. 
+Este aplicativo pode ser usado para realizar diariamente as anotações relacionadas ao estado do muco cervical. 
 Através destes registros, é possível identificar os períodos férteis e os inférteis utilizando o Método de Ovulação Billings.
 O uso do aplicativo não dispensa o conhecimento no método e o usuário possui total responsabilidade sobre as inserções de dados, interpretações e decisões tomadas.
 
