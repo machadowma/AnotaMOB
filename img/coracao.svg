@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1082"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="coracao.svg">
+  <defs
+     id="defs1076" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-262.4397"
+     inkscape:cy="628.21328"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2880"
+     inkscape:window-height="1526"
+     inkscape:window-x="2869"
+     inkscape:window-y="6"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1079">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Coracao Sim"
+     style="display:inline">
+    <path
+       style="fill:#e00000;fill-opacity:1;stroke:#fafafa;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 141.21736,80.00726 c -12.51321,0.370213 -26.82878,9.207377 -39.05422,24.1086 C 85.556368,84.399441 65.790668,76.209046 51.867738,83.274761 13.351648,113.91131 50.746838,177.97416 108.63813,207.08683 179.84864,148.03757 190.11561,104.25593 152.807,82.519251 149.33416,80.736497 145.42732,79.889708 141.21736,80.00726 Z"
+       id="path1627-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\AnotaMOB\app\src\main\res\drawable\coracao_sim.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       style="fill:#9f0000;fill-opacity:1;stroke:#fafafa;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 144.83799,80.154009 c 30.85018,5.465376 21.14699,60.080491 -42.55047,123.571391 6.25038,3.42825 0.10022,-0.0668 6.35061,3.36143 71.21051,-59.04926 81.47749,-102.83091 44.16888,-124.567592 -2.45468,-1.260088 -5.12691,-2.050372 -7.96902,-2.365229 z m -69.604022,3.185335 c 0.60561,0.76265 1.20825,1.540443 1.80609,2.336807 0.29136,-0.398444 0.58482,-0.789609 0.8785,-1.18029 -0.89796,-0.419566 -1.79311,-0.806453 -2.68459,-1.156517 z"
+       id="path1627-0-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\AnotaMOB\app\src\main\res\drawable\coracao_sim.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       style="fill:#ff4646;fill-opacity:1;stroke:#fafafa;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.504298,80.773104 c -3.7892,0.02797 -7.37337,0.84563 -10.63656,2.501657 -36.8722,29.328959 -4.17339,89.290669 49.475542,119.897589 C 52.233788,171.49349 24.227198,115.75732 59.351528,87.81867 c 7.83055,-3.973912 17.50903,-3.122181 27.43449,1.891874 -8.29592,-5.885979 -16.69938,-8.993394 -24.28172,-8.93744 z"
+       id="path1627-0-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\AnotaMOB\app\src\main\res\drawable\coracao_sim.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+  </g>
+  <g
+     inkscape:label="Coração Não"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:none">
+    <path
+       style="fill:#755d5d;fill-opacity:1;stroke:#fafafa;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 141.21737,80.007261 c -12.51322,0.37021 -26.82878,9.20737 -39.05423,24.108599 C 85.556368,84.399441 65.790668,76.209041 51.867738,83.274761 c -38.51609,30.636549 -1.1209,94.699399 56.770402,123.812069 71.2105,-59.04926 81.47748,-102.8309 44.16887,-124.567579 -3.47285,-1.78276 -7.37968,-2.62954 -11.58964,-2.51199 z"
+       id="path1627-0-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\AnotaMOB\app\src\main\res\drawable\coracao_nao.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       style="fill:#2d1818;fill-opacity:1;stroke:#fafafa;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 144.838,80.154011 c 30.85017,5.46537 21.14699,60.080489 -42.55048,123.571389 6.25038,3.42825 0.10022,-0.0668 6.35062,3.36143 71.2105,-59.04926 81.47749,-102.83091 44.16888,-124.567589 -2.45468,-1.26009 -5.12691,-2.05038 -7.96902,-2.36523 z m -69.604032,3.18533 c 0.60561,0.76265 1.20825,1.54044 1.80609,2.33681 0.29136,-0.39845 0.58482,-0.78961 0.8785,-1.18029 -0.89796,-0.41957 -1.79311,-0.80645 -2.68459,-1.15652 z"
+       id="path1627-0-9-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\AnotaMOB\app\src\main\res\drawable\coracao_nao.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+    <path
+       style="fill:#978f8f;fill-opacity:1;stroke:#fafafa;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 62.504298,80.773101 c -3.7892,0.028 -7.37337,0.84563 -10.63656,2.50166 -36.8722,29.328959 -4.17339,89.290669 49.475552,119.897579 C 52.233788,171.49349 24.227198,115.75732 59.351528,87.818671 c 7.83055,-3.97391 17.50903,-3.12218 27.43449,1.89187 -8.29592,-5.88598 -16.69938,-8.99339 -24.28172,-8.93744 z"
+       id="path1627-0-4-9"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\macha\AndroidStudioProjects\AnotaMOB\app\src\main\res\drawable\coracao_nao.png"
+       inkscape:export-xdpi="75"
+       inkscape:export-ydpi="75" />
+  </g>
+</svg>

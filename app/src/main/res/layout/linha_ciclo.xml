@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+
+    <TextView
+        android:id="@+id/ciclo_txt_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="start"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/ciclo_ini_em"
+        android:textAlignment="textStart"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/ciclo_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="start"
+        android:layout_toEndOf="@+id/ciclo_txt_1"
+        android:layout_toRightOf="@+id/ciclo_txt_1"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/data"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ciclo_img_abrir"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/ciclo_data"
+        android:layout_toRightOf="@+id/ciclo_data"
+        android:paddingBottom="10dp"
+        app:srcCompat="@drawable/porta" />
+
+
+</RelativeLayout>

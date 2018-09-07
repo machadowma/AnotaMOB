@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">AnotaMOB</string>
+    <string name="action_settings">Settings</string>
+    <string name="sobre">Sobre</string>
+    <string name="info">Informação</string>
+    <string name="sobre_msg">
+        Aplicativo para anotação diária do Método de Ovulação Billings.
+        O uso do aplicativo não dispensa conhecimento no método.
+    </string>
+    <string name="ok">Ok</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="meus_ciclos">Meus ciclos menstruais</string>
+    <string name="incluir">Incluir</string>
+    <string name="data_ini_ciclo">Início da menstruação</string>
+    <string name="informe_data_ini_ciclo">Informe a data de início da menstruação.</string>
+    <string name="excluir">Excluir</string>
+    <string name="certeza_excluir_ciclo">Ao excluir o ciclo menstrual, você perderá todas as anotações realizadas neste ciclo. Você realmente deseja excluir?</string>
+    <string name="sim_excluir_ciclo">Desejo excluir o ciclo menstrual e apagar todas as anotações realizadas neste ciclo.</string>
+    <string name="certeza_excluir_anotacao">Você tem certeza que deseja excluir esta anotação?</string>
+    <string name="ciclo_excluido">O ciclo foi excluído com sucesso.</string>
+    <string name="ciclo_incluido">O ciclo foi incluído com sucesso.</string>
+    <string name="anota_incluida">Anotação incluída com sucesso.</string>
+    <string name="anota_excluida">Anotação excluída com sucesso.</string>
+    <string name="anota_alterada">Anotação alterada com sucesso.</string>
+    <string name="title_activity_ciclo">Anotações do Ciclo</string>
+    <string name="title_activity_incluir_ciclo">Novo Ciclo</string>
+    <string name="ciclo_ini_em">Ciclo iniciado em</string>
+    <string name="title_activity_incluir_anota">Incluir Anotação Diária</string>
+    <string name="title_activity_alterar_anota">Alterar Anotação Diária</string>
+    <string name="sangue">Sangue</string>
+    <string name="mancha">Mancha</string>
+    <string name="seca">Seca</string>
+    <string name="muco">Muco</string>
+    <string name="pico">pico</string>
+    <string name="title_activity_ciclo_recycler">Incluir Anotação Diária</string>
+    <string name="signific_simb">Significado do símbolo:</string>
+    <string name="dia">Dia</string>
+    <string name="data">Data</string>
+    <string name="obs">Observação</string>
+    <string name="alterar_simbolo">Alterar Símbolo</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="textExcluirAnota">Para excluir essa anotação</string>
+    <string name="clique_aqui">clique aqui</string>
+    <string name="nao_exclui_anotaca_1">Não foi possível excluir a anotação. O ciclo deve conter ao menos uma anotação.</string>
+    <string name="anotacao_excluida">Anotação excluída com sucesso.</string>
+    <string name="erro">Erro!</string>
+    <string name="relacao_nao">Relação sexual alterada para \"Não\".</string>
+    <string name="relacao_sim">Relação sexual alterada para \"Sim\".</string>
+
+</resources>

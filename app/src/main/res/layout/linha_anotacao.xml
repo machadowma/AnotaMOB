@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/lista_anotacao_imagem"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:paddingBottom="10dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/lista_anotacao_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/lista_anotacao_imagem"
+        android:layout_toRightOf="@+id/lista_anotacao_imagem"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="dia"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:textSize="25dp"
+        android:textStyle="bold" />/>
+
+    <TextView
+        android:id="@+id/lista_anotacao_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/lista_anotacao_dia"
+        android:layout_toRightOf="@+id/lista_anotacao_dia"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Data"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:id="@+id/lista_anotacao_coracao"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@+id/lista_anotacao_data"
+        android:layout_toRightOf="@+id/lista_anotacao_data"
+        android:paddingTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/lista_anotacao_observacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lista_anotacao_dia"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:text="Observação"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:textSize="20dp"
+        android:textStyle="normal" />
+
+</RelativeLayout>
