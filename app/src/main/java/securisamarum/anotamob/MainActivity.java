@@ -240,14 +240,15 @@ public class MainActivity extends AppCompatActivity {
             cicloIds = new ArrayList<Integer>();
             cicloDatas = new ArrayList<String>();
             listCiclo = new ArrayList();
-            cursor.moveToFirst();
-            do {
-                Integer id = Integer.parseInt(cursor.getString(cursor.getColumnIndex("id")));
-                String dataStr = cursor.getString(cursor.getColumnIndex("data"));
-                Ciclo ciclo = new Ciclo(id, dataStr);
-                listCiclo.add(ciclo);
-                cicloIds.add(Integer.parseInt(cursor.getString(indiceColunaId)));
-            } while ( cursor.moveToNext());
+            if(cursor.moveToFirst()) {
+                do {
+                    Integer id = Integer.parseInt(cursor.getString(cursor.getColumnIndex("id")));
+                    String dataStr = cursor.getString(cursor.getColumnIndex("data"));
+                    Ciclo ciclo = new Ciclo(id, dataStr);
+                    listCiclo.add(ciclo);
+                    cicloIds.add(Integer.parseInt(cursor.getString(indiceColunaId)));
+                } while (cursor.moveToNext());
+            }
             MainAdapter adapter = new MainAdapter(
                     this,
                     R.layout.linha_ciclo,
