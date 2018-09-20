@@ -205,33 +205,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void listarCiclos(){
-        /*
-        try {
-            bancoDados = openOrCreateDatabase("anotamob", MODE_PRIVATE, null);
-            Cursor cursor = bancoDados.rawQuery("SELECT id,strftime('%d/%m/%Y', data) as data FROM ciclo ORDER BY strftime('%Y%m%d', data) DESC", null);
-            int indiceColunaId = cursor.getColumnIndex("id");
-            int indiceColunaData = cursor.getColumnIndex("data");
-            cicloIds = new ArrayList<Integer>();
-            cicloDatas = new ArrayList<String>();
-            ArrayAdapter adapter = new ArrayAdapter<String>(
-                    getApplicationContext()
-                    , android.R.layout.simple_list_item_1
-                    , android.R.id.text1
-                    , cicloDatas
-            );
-            mainList.setAdapter(adapter);
-            cursor.moveToFirst();
-            while (cursor!=null) {
-                cicloDatas.add(cursor.getString(indiceColunaData));
-                cicloIds.add(Integer.parseInt(cursor.getString(indiceColunaId)));
-                cursor.moveToNext();
-            }
-            bancoDados.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        */
-
         try {
             bancoDados = openOrCreateDatabase("anotamob", MODE_PRIVATE, null);
             Cursor cursor = bancoDados.rawQuery("SELECT id,strftime('%d/%m/%Y', data) as data FROM ciclo ORDER BY strftime('%Y%m%d', data) DESC", null);

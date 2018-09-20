@@ -25,7 +25,8 @@
     <string name="anota_alterada">Anotação alterada com sucesso.</string>
     <string name="title_activity_ciclo">Anotações do Ciclo</string>
     <string name="title_activity_incluir_ciclo">Novo Ciclo</string>
-    <string name="ciclo_ini_em">Ciclo iniciado em</string>
+    <string name="ciclo_ini_em">Ciclo iniciado em: </string>
+    ciclo_ini_em
     <string name="title_activity_incluir_anota">Incluir Anotação Diária</string>
     <string name="title_activity_alterar_anota">Alterar Anotação Diária</string>
     <string name="sangue">Sangue</string>
@@ -40,8 +41,7 @@
     <string name="obs">Observação</string>
     <string name="alterar_simbolo">Alterar Símbolo</string>
     <string name="cancelar">Cancelar</string>
-    <string name="textExcluirAnota">Para excluir essa anotação</string>
-    <string name="clique_aqui">clique aqui</string>
+    <string name="clique_aqui_excluir_anotacao">Excluir essa anotação</string>
     <string name="nao_exclui_anotaca_1">Não foi possível excluir a anotação. O ciclo deve conter ao menos uma anotação.</string>
     <string name="anotacao_excluida">Anotação excluída com sucesso.</string>
     <string name="erro">Erro!</string>

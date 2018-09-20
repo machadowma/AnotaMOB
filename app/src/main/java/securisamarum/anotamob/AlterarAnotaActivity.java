@@ -37,6 +37,17 @@ public class AlterarAnotaActivity extends AppCompatActivity {
             R.drawable.img_8,
             R.drawable.img_9
     };
+    public String[] observacoes = {
+            "Sangramento."
+            ,"Manchas de sangue."
+            ,"Dias em que não se observa muco e existe uma sensação de secura."
+            ,"Dias de muco. Indica possível fertilidade. Também usado para o dia após o sexo na fase pré-ovulatória."
+            ,"Padrão Básico de Infertilidade ou a partir do quarto dia após o pico. Seco ou muco que não é molhado ou escorregadio."
+            ,"Pico."
+            ,"Um dia após o pico. Possivelmente fértil. Seco ou muco que não é molhado ou escorregadio."
+            ,"Dois dias após o pico. Possivelmente fértil. Seco ou muco que não é molhado ou escorregadio."
+            ,"Três dias após o pico. Possivelmente fértil. Seco ou muco que não é molhado ou escorregadio."
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -109,6 +120,7 @@ public class AlterarAnotaActivity extends AppCompatActivity {
                     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                         imageSimbolo.setImageResource(mThumbIds[i]);
                         codigo_simbolo = i+1;
+                        editTextObs.setText(observacoes[i]);
                         dialog.dismiss();
                     }
                 });

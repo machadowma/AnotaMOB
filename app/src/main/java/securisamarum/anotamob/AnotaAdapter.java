@@ -2,6 +2,7 @@ package securisamarum.anotamob;
 
 
 import android.content.Context;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -51,7 +52,10 @@ public class AnotaAdapter extends BaseAdapter {
         ImageView imageView = new ImageView(mContext);
         imageView.setImageResource(mThumbIds[position]);
         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageView.setLayoutParams(new GridView.LayoutParams(200, 200));
+        DisplayMetrics metrics = mContext.getResources().getDisplayMetrics();
+        int width = metrics.widthPixels / 5;
+        int height = metrics.heightPixels / 5;
+        imageView.setLayoutParams(new GridView.LayoutParams(width, width));
         return imageView;
     }
 }
