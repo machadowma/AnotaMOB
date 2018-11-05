@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="securisamarum.anotamob">
 
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -44,6 +44,9 @@
             android:name=".AlterarAnotaActivity"
             android:label="@string/title_activity_alterar_anota"
             android:parentActivityName=".CicloActivity" />
+        <activity android:name=".GraficoActivity"
+            android:label="@string/title_activity_grafico"
+            android:parentActivityName=".CicloActivity"></activity>
     </application>
 
 </manifest>

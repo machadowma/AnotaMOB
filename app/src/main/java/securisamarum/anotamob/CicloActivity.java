@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,6 +30,7 @@ public class CicloActivity extends AppCompatActivity {
     private ArrayList <Integer> anotaIds;
     private List<Anotacao> listAnota;
     private ListView anotaListView;
+    private ImageView imageViewAbrirGrafico;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +40,7 @@ public class CicloActivity extends AppCompatActivity {
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         cicloTextData = (TextView) findViewById(R.id.cicloTextData);
         anotaListView = (ListView) findViewById(R.id.anotaList);
+        imageViewAbrirGrafico = (ImageView) findViewById(R.id.imageViewAbrirGrafico);
 
         setSupportActionBar(toolbar);
 
@@ -58,6 +61,13 @@ public class CicloActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 alterarAnota(i);
+            }
+        });
+
+        imageViewAbrirGrafico.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                abrirGrafico();
             }
         });
 
@@ -133,6 +143,12 @@ public class CicloActivity extends AppCompatActivity {
         } catch (Exception e){
             e.printStackTrace();
         }
+    }
+
+    private void abrirGrafico(){
+        Intent intent = new Intent(this,GraficoActivity.class);
+        intent.putExtra("cicloId",cicloId.toString());
+        startActivity(intent);
     }
 
 }

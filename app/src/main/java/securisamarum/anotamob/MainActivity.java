@@ -57,26 +57,6 @@ public class MainActivity extends AppCompatActivity {
         mainList.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
-                /*
-                cicloId = cicloIds.get(i);
-                AlertDialog.Builder msgBox = new AlertDialog.Builder(MainActivity.this);
-                msgBox.setTitle(R.string.excluir);
-                msgBox.setIcon(android.R.drawable.ic_menu_delete);
-                msgBox.setMessage(R.string.certeza_excluir_ciclo);
-                msgBox.setPositiveButton(R.string.sim, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                        removerCiclo(cicloId);
-                    }
-                });
-                msgBox.setNegativeButton(R.string.nao, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialogInterface, int i) {
-                    }
-                });
-                msgBox.show();
-                return true;
-                */
                 cicloId = cicloIds.get(i);
                 AlertDialog.Builder builder  = new AlertDialog.Builder(MainActivity.this);
                 View my_view = getLayoutInflater().inflate(R.layout.excluir_ciclo_alert, null);

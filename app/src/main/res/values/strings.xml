@@ -1,12 +1,10 @@
+<?xml version="1.0"?>
 <resources>
     <string name="app_name">AnotaMOB</string>
     <string name="action_settings">Settings</string>
     <string name="sobre">Sobre</string>
     <string name="info">Informação</string>
-    <string name="sobre_msg">
-        Aplicativo para anotação diária do Método de Ovulação Billings.
-        O uso do aplicativo não dispensa conhecimento no método.
-    </string>
+    <string name="sobre_msg">Aplicativo para anotação diária do Método de Ovulação Billings.O uso do aplicativo não dispensa conhecimento no método. </string>
     <string name="ok">Ok</string>
     <string name="sim">Sim</string>
     <string name="nao">Não</string>
@@ -26,7 +24,6 @@
     <string name="title_activity_ciclo">Anotações do Ciclo</string>
     <string name="title_activity_incluir_ciclo">Novo Ciclo</string>
     <string name="ciclo_ini_em">Ciclo iniciado em: </string>
-    ciclo_ini_em
     <string name="title_activity_incluir_anota">Incluir Anotação Diária</string>
     <string name="title_activity_alterar_anota">Alterar Anotação Diária</string>
     <string name="sangue">Sangue</string>
@@ -47,5 +44,24 @@
     <string name="erro">Erro!</string>
     <string name="relacao_nao">Relação sexual alterada para \"Não\".</string>
     <string name="relacao_sim">Relação sexual alterada para \"Sim\".</string>
-
+    <string name="title_activity_grafico">Gráfico</string>
+    <string name="symbol_1">\u25CF\n</string>
+    <string name="symbol_2">\u2059\n</string>
+    <string name="symbol_3">|\n</string>
+    <string name="symbol_4">\u25EF\n</string>
+    <string name="symbol_5">=\n</string>
+    <string name="symbol_6">\u25EF\nX</string>
+    <string name="symbol_7">|\n1</string>
+    <string name="symbol_8">|\n2</string>
+    <string name="symbol_9">|\n3</string>
+    <string name="color_label_1"> </string>
+    <string name="color_label_2"> </string>
+    <string name="color_label_3"> </string>
+    <string name="color_label_4"> </string>
+    <string name="color_label_5"> </string>
+    <string name="color_label_6">X</string>
+    <string name="color_label_7">1</string>
+    <string name="color_label_8">2</string>
+    <string name="color_label_9">3</string>
+    <string name="comments">Sensação/Aparência</string>
 </resources>
